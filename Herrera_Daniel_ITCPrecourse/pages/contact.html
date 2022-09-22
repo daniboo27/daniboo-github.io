@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Contact</title>
+    <link href="C:\Users\Danie\OneDrive\Escritorio\proyect ITC\PreCourse\Herrera_Daniel_ITCPrecourse\css\contact.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="nav-container">
+        <nav>
+            <label class="logo">DaniBoo</label>
+            <ul>
+              <li><a class="active" href="C:\Users\Danie\OneDrive\Escritorio\proyect ITC\PreCourse\Herrera_Daniel_ITCPrecourse\index.html">Home</a></li>
+              <li><a href="C:\Users\Danie\OneDrive\Escritorio\proyect ITC\PreCourse\Herrera_Daniel_ITCPrecourse\pages\about.html">About</a></li>
+              <li><a href="C:\Users\Danie\OneDrive\Escritorio\proyect ITC\PreCourse\Herrera_Daniel_ITCPrecourse\pages\contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <form id="form" class="form"
+    action="https://formspree.io/f/mqkjerkv"
+    method="post">
+    <input type="hidden"
+    name="send_to"
+    value="danisempai27@gmail.com">
+    <label class="form_container">
+    <label>
+    <legend>
+        Your Contact Information
+    </legend>
+    </label>
+    
+    <label for="name">First Name</label>
+    <input type="text" required
+    id="name"
+    class="form_input" placeholder="first name" name="name">
+
+    <label for="last name">Last Name</label>
+    <input type="text"
+    class="form_input" placeholder="last mame" name="last">
+    
+    <label for="email">Email</label>
+    <input type="email" required
+    id="email"
+    class="input_form" placeholder="email" name="email">
+                
+    <label for="comments">Add your comment</label>
+    <textarea id="conmments" class="form_input form_input--message" required placeholder="Add your comment"></textarea>
+                
+    <label class="input_form">which one is the best hour to contact you?</label>
+    <select class="select" required
+    id="select">
+    <option selected>Select an Option</option>
+    <option>Mornig</option>
+    <option>afternoom</option>
+    <option>nigth</option>
+    </select>
+    <button id="btn" type="submit">Submit</button>
+    </form>
+    </fieldset>
+    </div>
+    </body>
+</html>
